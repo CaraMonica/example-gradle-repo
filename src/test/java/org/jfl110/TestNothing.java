@@ -19,7 +19,7 @@ public class TestNothing {
 	}
 	@Test
 	public void testSomething() {
-		Assert.assertEquals("a", "a");
+		Assert.assertEquals("b", "a");
 	}
 
 }
