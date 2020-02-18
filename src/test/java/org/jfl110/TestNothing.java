@@ -2,6 +2,7 @@ package org.jfl110;
 
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -16,4 +17,9 @@ public class TestNothing {
 	public void testNothing() {
 		assertTrue(true);
 	}
+	@Test
+	public void testSomething() {
+		Assert.assertEquals("a", "a");
+	}
+
 }
